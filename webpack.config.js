@@ -1,8 +1,11 @@
 module.exports = {
     entry: './test2.js',
     output: {
-        path: './build',
-        filename: 'bundle.js',
+        path: './',
+        filename: 'main.js',
+    },
+    devServer:{
+      port: 7980  
     },
     module: {
         loaders: [{
