@@ -12,3 +12,9 @@ console.log(calc instanceof Calculator);
 obj.myFunc1();
 obj.myFunc2();
 obj.myFunc3();
+
+var showCategories = (productId,...categories)=>{
+    console.log(categories instanceof Array)
+}
+
+showCategories(123,'search','dffdfer','sdfgsdg');
